@@ -1,0 +1,218 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+
+font-face {
+  font-family: "Lacquer", system-ui;
+  src: url(https://fonts.gstatic.com/s/lacquer/v15/EYqzma1QwqpG4_BBN7iKXw.woff2) format('woff2');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Bungee Spice", sans-serif;
+}
+
+#container {
+  margin: 0 auto;
+  /* centralizar o container */
+  width: 80%;
+}
+
+header {
+  height: 100px;
+  background-color: rgb(29, 133, 182);
+  padding: 2%;
+  text-align: center;
+  font-family: "Lacquer", system-ui;
+  font-size: 22pt;
+  font-weight: 400;
+
+}
+
+nav#lateral {
+  width: 20%;
+  background-color: rgb(162, 194, 228);
+  font-family: "Lacquer", system-ui;
+  font-size: 15pt;
+}
+
+main {
+  width: 77%;
+  background-color: white;
+  padding: 1%;
+  float: right;
+}
+
+/*
+header,
+main {
+  width: 100%;
+}
+  */
+
+header,
+footer {
+  width: 96%;
+}
+
+header,
+nav#lateral,
+footer {
+  float: left;
+}
+
+footer {
+  padding: 2%;
+  height: 400px;
+  background-color: rgb(29, 133, 182);
+  margin-top: 1%;
+  font-size: 25pt;
+  font-family: "Lacquer", system-ui;
+}
+
+nav#superior {
+  width: 100%;
+  margin-bottom: 1%;
+  float: left;
+}
+
+/* nav superior inicio */
+
+nav#superior ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+nav#superior li {
+  display: inline-block;
+}
+
+nav#superior li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+nav#superior li a:hover {
+  background-color: black;
+}
+
+nav#superior .active {
+  background-color: steelblue;
+}
+
+
+/* nav superior fim */
+
+
+nav#topo {
+  width: 100%;
+  float: left;
+  margin-bottom: 1%;
+}
+
+/* nav topo inicio */
+
+nav#topo ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  text-align: center;
+}
+
+nav#topo li {
+  float: left;
+}
+
+nav#topo li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+nav#topo li a:hover {
+  background-color: black;
+}
+
+nav#topo .active {
+  background-color: steelblue;
+}
+
+nav#topo li {
+  border-right: 1px solid gray;
+}
+
+nav#topo li:last-child {
+  border-right: none;
+}
+
+/* nav topo fim */
+
+
+/* nav lateral inicio */
+
+nav#lateral ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav#lateral li a {
+  display: block;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+nav#lateral li a:hover {
+  background-color: gray;
+}
+
+nav#lateral .active {
+  background-color: steelblue;
+  color: white;
+}
+
+/* nav lateral fim */
+
+#viagens td,
+#viagens th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#viagens{
+  border-collapse: collapse;
+  width:100%;
+  margin-top: 2%;
+}
+#viagens tr:nth-child(even){
+  background-color:rgb(216, 215, 215);
+}
+#viagens tr:hover{
+  background-color:rgb(181, 181, 181)
+}
+#viagens th{
+  background-color:rgb(117, 117, 117);
+  color:white;
+  padding: 12px 0;
+}
